@@ -1,0 +1,929 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-S56D0AUO",
+    "children" : [ {
+      "name" : "14772@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Verify Page Title",
+        "uid" : "fbb292f9d99858f",
+        "parentUid" : "55572297c631149be2dcf4472e46b055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631361928162,
+          "stop" : 1631361929710,
+          "duration" : 1548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Verify user's pic icon",
+        "uid" : "3390541b6a3c5a01",
+        "parentUid" : "55572297c631149be2dcf4472e46b055",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631361936869,
+          "stop" : 1631361940972,
+          "duration" : 4103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "eugene", " exists" ]
+      }, {
+        "name" : "Test04 - Verify removal of the user",
+        "uid" : "629febb8e985ba77",
+        "parentUid" : "55572297c631149be2dcf4472e46b055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631361933078,
+          "stop" : 1631361934357,
+          "duration" : 1279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02 - Verify default user",
+        "uid" : "7f3d93048fe60a05",
+        "parentUid" : "55572297c631149be2dcf4472e46b055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631361930147,
+          "stop" : 1631361931005,
+          "duration" : 858
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03 - Verify new added user",
+        "uid" : "7ac9424fb5a4cd15",
+        "parentUid" : "55572297c631149be2dcf4472e46b055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631361931291,
+          "stop" : 1631361932784,
+          "duration" : 1493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Verify user's pic icon",
+        "uid" : "555d2c85af86462e",
+        "parentUid" : "55572297c631149be2dcf4472e46b055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631361945199,
+          "stop" : 1631361959766,
+          "duration" : 14567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "bregman", "don't exist" ]
+      }, {
+        "name" : "Test05 - Verify the start page's panel elements",
+        "uid" : "3b228cb10797128c",
+        "parentUid" : "55572297c631149be2dcf4472e46b055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631361934663,
+          "stop" : 1631361934991,
+          "duration" : 328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Verify user's pic icon",
+        "uid" : "cfff66df36515ff1",
+        "parentUid" : "55572297c631149be2dcf4472e46b055",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631361941256,
+          "stop" : 1631361944959,
+          "duration" : 3703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "admin", "don't exist" ]
+      }, {
+        "name" : "Test06 - Verify user's pic icon",
+        "uid" : "9c2fb06e26eae661",
+        "parentUid" : "55572297c631149be2dcf4472e46b055",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631361935290,
+          "stop" : 1631361936589,
+          "duration" : 1299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "55572297c631149be2dcf4472e46b055"
+    }, {
+      "name" : "9212@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Validate Addition action",
+        "uid" : "d99f49becb3c2bfc",
+        "parentUid" : "824483b3029314e23d40ff43b2d3a494",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631358756249,
+          "stop" : 1631358759750,
+          "duration" : 3501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "824483b3029314e23d40ff43b2d3a494"
+    }, {
+      "name" : "3332@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Login to Grafana via credentials from the DB",
+        "uid" : "856e29b58d19fc99",
+        "parentUid" : "de67308c1fd27fca30db7657d9fa89a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631361937677,
+          "stop" : 1631361939710,
+          "duration" : 2033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "de67308c1fd27fca30db7657d9fa89a2"
+    }, {
+      "name" : "24912@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Add new team and verify team's name in Grafana ",
+        "uid" : "b9663ef6d5219c41",
+        "parentUid" : "ee681cb34ddc1bae9f6321635d96f7e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631359439555,
+          "stop" : 1631359439661,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 01: Verify team's name in Grafana ",
+        "uid" : "9a46829a2ae28f8c",
+        "parentUid" : "ee681cb34ddc1bae9f6321635d96f7e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631359437339,
+          "stop" : 1631359439531,
+          "duration" : 2192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 04: Delete team and verify its removal",
+        "uid" : "35a0cb8a7cd18327",
+        "parentUid" : "ee681cb34ddc1bae9f6321635d96f7e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631359439766,
+          "stop" : 1631359439864,
+          "duration" : 98
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 03: Update team and verify team's name in Grafana ",
+        "uid" : "3476dbc32433a300",
+        "parentUid" : "ee681cb34ddc1bae9f6321635d96f7e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631359439670,
+          "stop" : 1631359439761,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "ee681cb34ddc1bae9f6321635d96f7e9"
+    }, {
+      "name" : "21652@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Add new team and verify team's name in Grafana ",
+        "uid" : "5a8b7dc06fb090c1",
+        "parentUid" : "a4adb42d1f39b6577659f8c682720056",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362175421,
+          "stop" : 1631362175710,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 04: Delete team and verify its removal",
+        "uid" : "b1ae5b7c93bc8e90",
+        "parentUid" : "a4adb42d1f39b6577659f8c682720056",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362175944,
+          "stop" : 1631362176108,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 03: Update team and verify team's name in Grafana ",
+        "uid" : "b7c6094b33381dc6",
+        "parentUid" : "a4adb42d1f39b6577659f8c682720056",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362175734,
+          "stop" : 1631362175929,
+          "duration" : 195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 01: Verify team's name in Grafana ",
+        "uid" : "2c8cf01e37f09d25",
+        "parentUid" : "a4adb42d1f39b6577659f8c682720056",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362172002,
+          "stop" : 1631362175393,
+          "duration" : 3391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "a4adb42d1f39b6577659f8c682720056"
+    }, {
+      "name" : "5832@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test06 - Verify user's pic icon",
+        "uid" : "f8c37b20a8f771f5",
+        "parentUid" : "5f52fe5e9d464d61d19391986e56e554",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631362175067,
+          "stop" : 1631362176678,
+          "duration" : 1611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04 - Verify removal of the user",
+        "uid" : "25f98a665818ac20",
+        "parentUid" : "5f52fe5e9d464d61d19391986e56e554",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362172448,
+          "stop" : 1631362173885,
+          "duration" : 1437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05 - Verify the start page's panel elements",
+        "uid" : "789e6ce6d51983ef",
+        "parentUid" : "5f52fe5e9d464d61d19391986e56e554",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362174169,
+          "stop" : 1631362174692,
+          "duration" : 523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Verify user's pic icon",
+        "uid" : "997a251ee39c359b",
+        "parentUid" : "5f52fe5e9d464d61d19391986e56e554",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362185805,
+          "stop" : 1631362200397,
+          "duration" : 14592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "bregman", "don't exist" ]
+      }, {
+        "name" : "Test07 - Verify user's pic icon",
+        "uid" : "aad8fc65209c8672",
+        "parentUid" : "5f52fe5e9d464d61d19391986e56e554",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631362181719,
+          "stop" : 1631362185562,
+          "duration" : 3843
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "admin", "don't exist" ]
+      }, {
+        "name" : "Test02 - Verify default user",
+        "uid" : "7da01ba5b4e76367",
+        "parentUid" : "5f52fe5e9d464d61d19391986e56e554",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362165039,
+          "stop" : 1631362166973,
+          "duration" : 1934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01 - Verify Page Title",
+        "uid" : "4aa4fb29f3cf7d05",
+        "parentUid" : "5f52fe5e9d464d61d19391986e56e554",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362161100,
+          "stop" : 1631362164395,
+          "duration" : 3295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Verify user's pic icon",
+        "uid" : "5b204bd5c809c868",
+        "parentUid" : "5f52fe5e9d464d61d19391986e56e554",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631362177193,
+          "stop" : 1631362181404,
+          "duration" : 4211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "eugene", " exists" ]
+      }, {
+        "name" : "Test03 - Verify new added user",
+        "uid" : "3e7866c34211602a",
+        "parentUid" : "5f52fe5e9d464d61d19391986e56e554",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362167655,
+          "stop" : 1631362171911,
+          "duration" : 4256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "5f52fe5e9d464d61d19391986e56e554"
+    }, {
+      "name" : "1208@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Add more tasks and check total number of tasks is changed",
+        "uid" : "37c117af1b14ef23",
+        "parentUid" : "edba63443dc4d1323bb1438c3126309a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631564379528,
+          "stop" : 1631564380488,
+          "duration" : 960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test 01: Add task and check total number of tasks is changed",
+        "uid" : "d177367215b6e3a2",
+        "parentUid" : "edba63443dc4d1323bb1438c3126309a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631564373487,
+          "stop" : 1631564374305,
+          "duration" : 818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "edba63443dc4d1323bb1438c3126309a"
+    }, {
+      "name" : "24996@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Login to Grafana via credentials from the DB",
+        "uid" : "306a2722767ecc12",
+        "parentUid" : "3ae18f04004da3083dfecbff140e68c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631359469256,
+          "stop" : 1631359470792,
+          "duration" : 1536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "3ae18f04004da3083dfecbff140e68c8"
+    }, {
+      "name" : "17920@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Add more tasks and check total number of tasks is changed",
+        "uid" : "d7ff38e034ed502e",
+        "parentUid" : "0a405ec6fd1518c74223b9ac0f9a8e38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631467622610,
+          "stop" : 1631467623153,
+          "duration" : 543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test 01: Add task and check total number of tasks is changed",
+        "uid" : "b7f833ebde954a69",
+        "parentUid" : "0a405ec6fd1518c74223b9ac0f9a8e38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631467617130,
+          "stop" : 1631467617460,
+          "duration" : 330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "0a405ec6fd1518c74223b9ac0f9a8e38"
+    }, {
+      "name" : "22832@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Verify Page Title",
+        "uid" : "b6165ac7b3bb92ca",
+        "parentUid" : "cc8a96a72f69b1262a15230e90e8dc8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631350325111,
+          "stop" : 1631350326208,
+          "duration" : 1097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03 - Verify new added user",
+        "uid" : "87a0c46c97483954",
+        "parentUid" : "cc8a96a72f69b1262a15230e90e8dc8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631350327419,
+          "stop" : 1631350328723,
+          "duration" : 1304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Verify user's pic icon",
+        "uid" : "a891d58770b32f61",
+        "parentUid" : "cc8a96a72f69b1262a15230e90e8dc8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631350331704,
+          "stop" : 1631350335776,
+          "duration" : 4072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "eugene", " exists" ]
+      }, {
+        "name" : "Test02 - Verify default user",
+        "uid" : "6b68861d02c58438",
+        "parentUid" : "cc8a96a72f69b1262a15230e90e8dc8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631350326567,
+          "stop" : 1631350327220,
+          "duration" : 653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04 - Verify removal of the user",
+        "uid" : "d8fd3b701db8135",
+        "parentUid" : "cc8a96a72f69b1262a15230e90e8dc8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631350328942,
+          "stop" : 1631350329987,
+          "duration" : 1045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Verify user's pic icon",
+        "uid" : "efd46c7d4389391c",
+        "parentUid" : "cc8a96a72f69b1262a15230e90e8dc8d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631350335994,
+          "stop" : 1631350339470,
+          "duration" : 3476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "admin", "don't exist" ]
+      }, {
+        "name" : "Test05 - Verify the start page's panel elements",
+        "uid" : "80ff9f43d74b17b6",
+        "parentUid" : "cc8a96a72f69b1262a15230e90e8dc8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631350330191,
+          "stop" : 1631350330409,
+          "duration" : 218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Verify user's pic icon",
+        "uid" : "4e695e19e2c69b93",
+        "parentUid" : "cc8a96a72f69b1262a15230e90e8dc8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631350339712,
+          "stop" : 1631350354303,
+          "duration" : 14591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "bregman", "don't exist" ]
+      }, {
+        "name" : "Test06 - Verify user's pic icon",
+        "uid" : "5ef05149788ab03",
+        "parentUid" : "cc8a96a72f69b1262a15230e90e8dc8d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631350330594,
+          "stop" : 1631350331494,
+          "duration" : 900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "cc8a96a72f69b1262a15230e90e8dc8d"
+    }, {
+      "name" : "29828@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Add more tasks and check total number of tasks is changed",
+        "uid" : "6caf6d4dc63ed4fe",
+        "parentUid" : "4484a7d8dbee9711837de06834f7cd6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631648843438,
+          "stop" : 1631648843990,
+          "duration" : 552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test 01: Add task and check total number of tasks is changed",
+        "uid" : "49c4e08478632bd0",
+        "parentUid" : "4484a7d8dbee9711837de06834f7cd6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631648837935,
+          "stop" : 1631648838264,
+          "duration" : 329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "4484a7d8dbee9711837de06834f7cd6c"
+    }, {
+      "name" : "23744@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Verify the motgage calculation",
+        "uid" : "40ccad32685aec15",
+        "parentUid" : "743985b05e6f2026598e73b902b8fdb8",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631361920874,
+          "stop" : 1631361920877,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "452046d0f7fe6e25",
+        "parentUid" : "743985b05e6f2026598e73b902b8fdb8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631361920703,
+          "stop" : 1631361920704,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "743985b05e6f2026598e73b902b8fdb8"
+    }, {
+      "name" : "5180@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 03: Update team and verify team's name in Grafana ",
+        "uid" : "d4325474024d4547",
+        "parentUid" : "68719e7cb5b53b94d4ee344bbd2e9095",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631361910819,
+          "stop" : 1631361910912,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 02: Add new team and verify team's name in Grafana ",
+        "uid" : "b0cba7429913b5ff",
+        "parentUid" : "68719e7cb5b53b94d4ee344bbd2e9095",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631361910706,
+          "stop" : 1631361910811,
+          "duration" : 105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 01: Verify team's name in Grafana ",
+        "uid" : "38b9e417499fd53f",
+        "parentUid" : "68719e7cb5b53b94d4ee344bbd2e9095",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631361908413,
+          "stop" : 1631361910694,
+          "duration" : 2281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test 04: Delete team and verify its removal",
+        "uid" : "9efde8bddfde3169",
+        "parentUid" : "68719e7cb5b53b94d4ee344bbd2e9095",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631361910918,
+          "stop" : 1631361911007,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "68719e7cb5b53b94d4ee344bbd2e9095"
+    }, {
+      "name" : "13660@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Validate Addition action",
+        "uid" : "38486530bdde96f5",
+        "parentUid" : "cab514694db711d0f6d47311a6370c8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362143544,
+          "stop" : 1631362147885,
+          "duration" : 4341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "cab514694db711d0f6d47311a6370c8b"
+    }, {
+      "name" : "21796@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "bbbf3c0ca41dfdfc",
+        "parentUid" : "d6515fc72dc0d3042a4a43cf1d4859c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631362163129,
+          "stop" : 1631362163131,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "Test01 - Verify the motgage calculation",
+        "uid" : "76b0be44d29a7a96",
+        "parentUid" : "d6515fc72dc0d3042a4a43cf1d4859c5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631362163396,
+          "stop" : 1631362163398,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "d6515fc72dc0d3042a4a43cf1d4859c5"
+    }, {
+      "name" : "23068@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Add more tasks and check total number of tasks is changed",
+        "uid" : "df69bdc84875f88b",
+        "parentUid" : "3c8f07b3f2d0f68a42f5e8b30471ddf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631359376576,
+          "stop" : 1631359377207,
+          "duration" : 631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test 01: Add task and check total number of tasks is changed",
+        "uid" : "d8a39a2dc008690",
+        "parentUid" : "3c8f07b3f2d0f68a42f5e8b30471ddf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631359370920,
+          "stop" : 1631359371389,
+          "duration" : 469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "3c8f07b3f2d0f68a42f5e8b30471ddf5"
+    }, {
+      "name" : "17884@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Login to Grafana via credentials from the DB",
+        "uid" : "931ed78c98f82dca",
+        "parentUid" : "3d938c7501f0bbb3fca28c6130ab93c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631359444229,
+          "stop" : 1631359445733,
+          "duration" : 1504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "3d938c7501f0bbb3fca28c6130ab93c3"
+    }, {
+      "name" : "22828@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Add more tasks and check total number of tasks is changed",
+        "uid" : "fc5ff02386aacde4",
+        "parentUid" : "fd30bcfaadaac29fd09c9af91f977ca1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631710295441,
+          "stop" : 1631710296009,
+          "duration" : 568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test 01: Add task and check total number of tasks is changed",
+        "uid" : "a6c768eb967ef4e2",
+        "parentUid" : "fd30bcfaadaac29fd09c9af91f977ca1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631710284892,
+          "stop" : 1631710285288,
+          "duration" : 396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "fd30bcfaadaac29fd09c9af91f977ca1"
+    }, {
+      "name" : "16092@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Validate Addition action",
+        "uid" : "213f7655f051363e",
+        "parentUid" : "a04d2970c6ba028642b897c947c1f947",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631361909407,
+          "stop" : 1631361913045,
+          "duration" : 3638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "a04d2970c6ba028642b897c947c1f947"
+    }, {
+      "name" : "24908@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 02: Add more tasks and check total number of tasks is changed",
+        "uid" : "a5356527530576f0",
+        "parentUid" : "269f3a9ad789ee08a7fb3cdefdbacc5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362166492,
+          "stop" : 1631362172478,
+          "duration" : 5986
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test 01: Add task and check total number of tasks is changed",
+        "uid" : "d970718582e96fce",
+        "parentUid" : "269f3a9ad789ee08a7fb3cdefdbacc5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362153920,
+          "stop" : 1631362155481,
+          "duration" : 1561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "269f3a9ad789ee08a7fb3cdefdbacc5c"
+    }, {
+      "name" : "4668@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test 01: Validate Addition action",
+        "uid" : "99f1ebc2af0caf91",
+        "parentUid" : "9e757a0ea3b5a360f4987e85c5282f76",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631358709048,
+          "stop" : 1631358709050,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "a438f42cfbff27a",
+        "parentUid" : "9e757a0ea3b5a360f4987e85c5282f76",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631358708961,
+          "stop" : 1631358708962,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "9e757a0ea3b5a360f4987e85c5282f76"
+    }, {
+      "name" : "16884@LAPTOP-S56D0AUO.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Login to Grafana via credentials from the DB",
+        "uid" : "2c8386296d821d8a",
+        "parentUid" : "b928c80509b0028abbe20f34d0a20fac",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631362174678,
+          "stop" : 1631362177700,
+          "duration" : 3022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "b928c80509b0028abbe20f34d0a20fac"
+    } ],
+    "uid" : "b42bb86ad566997ab4dce3d0df59b1a7"
+  } ]
+}

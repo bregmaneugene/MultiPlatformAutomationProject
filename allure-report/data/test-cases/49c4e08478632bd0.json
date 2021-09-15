@@ -1,0 +1,299 @@
+{
+  "uid" : "49c4e08478632bd0",
+  "name" : "Test 01: Add task and check total number of tasks is changed",
+  "fullName" : "sanity.ToDoListElectron.test01_addTaskAndCheck",
+  "historyId" : "189dfb6d3096840d0df4a54801908129",
+  "time" : {
+    "start" : 1631648837935,
+    "stop" : 1631648838264,
+    "duration" : 329
+  },
+  "description" : "Test 01: Adds and verifies the new task in the list ",
+  "descriptionHtml" : "<p>Test 01: Adds and verifies the new task in the list</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1631648837765,
+      "stop" : 1631648837840,
+      "duration" : 75
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1631648832197,
+      "stop" : 1631648837754,
+      "duration" : 5557
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test 01: Adds and verifies the new task in the list ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Work Flow: Add a task",
+      "time" : {
+        "start" : 1631648837956,
+        "stop" : 1631648838192,
+        "duration" : 236
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1631648838002,
+          "stop" : 1631648838126,
+          "duration" : 124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (e038cf2f157b6a3710f96d1d82c7a319)] -> css selector: input[placeholder='Create a task']]"
+        }, {
+          "name" : "text",
+          "value" : "Research Universe"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Insert Keys",
+        "time" : {
+          "start" : 1631648838139,
+          "stop" : 1631648838192,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (e038cf2f157b6a3710f96d1d82c7a319)] -> css selector: input[placeholder='Create a task']]"
+        }, {
+          "name" : "keys",
+          "value" : ""
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "taskName",
+        "value" : "Research Universe"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Work Flow: Count tasks quantity in the list",
+      "time" : {
+        "start" : 1631648838192,
+        "stop" : 1631648838213,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Number correctness",
+      "time" : {
+        "start" : 1631648838223,
+        "stop" : 1631648838226,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "1"
+      }, {
+        "name" : "expected",
+        "value" : "1"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1631648838272,
+      "stop" : 1631648843428,
+      "duration" : 5156
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Work Flow: Removes tasks from the list",
+      "time" : {
+        "start" : 1631648838273,
+        "stop" : 1631648843428,
+        "duration" : 5155
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Work Flow: Count tasks quantity in the list",
+        "time" : {
+          "start" : 1631648838273,
+          "stop" : 1631648838294,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Mouse Hover Element",
+        "time" : {
+          "start" : 1631648838313,
+          "stop" : 1631648838380,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on XP (e038cf2f157b6a3710f96d1d82c7a319)] -> class name: destroy_19w1q]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Work Flow: Count tasks quantity in the list",
+        "time" : {
+          "start" : 1631648838380,
+          "stop" : 1631648843428,
+          "duration" : 5048
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeStation",
+    "time" : {
+      "start" : 1631648844201,
+      "stop" : 1631648844781,
+      "duration" : 580
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.ToDoListElectron"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.ToDoListElectron"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_addTaskAndCheck"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.ToDoListElectron"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-S56D0AUO"
+  }, {
+    "name" : "thread",
+    "value" : "29828@LAPTOP-S56D0AUO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "electron"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49c4e08478632bd0.json",
+  "parameterValues" : [ "electron" ]
+}

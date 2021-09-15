@@ -1,0 +1,359 @@
+{
+  "uid" : "38486530bdde96f5",
+  "name" : "Test 01: Validate Addition action",
+  "fullName" : "sanity.CalculatorDesktop.test01_addTaskAndCheck",
+  "historyId" : "3294e2032e86ba7fec218db3773bbb49",
+  "time" : {
+    "start" : 1631362143544,
+    "stop" : 1631362147885,
+    "duration" : 4341
+  },
+  "description" : "Test 01: Verifies addition calculation's result",
+  "descriptionHtml" : "<p>Test 01: Verifies addition calculation's result</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1631362143307,
+      "stop" : 1631362143382,
+      "duration" : 75
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1631362140049,
+      "stop" : 1631362143291,
+      "duration" : 3242
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test 01: Verifies addition calculation's result",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Calculates addition 1+9",
+      "time" : {
+        "start" : 1631362143566,
+        "stop" : 1631362146751,
+        "duration" : 3185
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1631362143654,
+          "stop" : 1631362144166,
+          "duration" : 512
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> name: Clear]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1631362144228,
+          "stop" : 1631362144743,
+          "duration" : 515
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> name: One]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1631362144823,
+          "stop" : 1631362145425,
+          "duration" : 602
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> name: Plus]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1631362145507,
+          "stop" : 1631362146038,
+          "duration" : 531
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> name: Eight]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1631362146139,
+          "stop" : 1631362146751,
+          "duration" : 612
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> name: Equals]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1631362146987,
+        "stop" : 1631362147714,
+        "duration" : 727
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='CalculatorResults']]"
+      }, {
+        "name" : "expected",
+        "value" : "Display is 9"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1631362147901,
+      "stop" : 1631362147901,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeStation",
+    "time" : {
+      "start" : 1631362147908,
+      "stop" : 1631362148162,
+      "duration" : 254
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.CalculatorDesktop"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.CalculatorDesktop"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_addTaskAndCheck"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.CalculatorDesktop"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-S56D0AUO"
+  }, {
+    "name" : "thread",
+    "value" : "13660@LAPTOP-S56D0AUO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "213f7655f051363e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631361909407,
+        "stop" : 1631361913045,
+        "duration" : 3638
+      }
+    }, {
+      "uid" : "d99f49becb3c2bfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631358756249,
+        "stop" : 1631358759750,
+        "duration" : 3501
+      }
+    }, {
+      "uid" : "99f1ebc2af0caf91",
+      "status" : "skipped",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-S56D0AUO', ip: '192.168.0.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+      "time" : {
+        "start" : 1631358709048,
+        "stop" : 1631358709050,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "9969972d0c6fe9f5",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/9969972d0c6fe9f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362143544,
+          "stop" : 1631362147885,
+          "duration" : 4341
+        }
+      }, {
+        "uid" : "139f30fa9caf7dc8",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/139f30fa9caf7dc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362143544,
+          "stop" : 1631362147885,
+          "duration" : 4341
+        }
+      }, {
+        "uid" : "de22045b8cf72c79",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/de22045b8cf72c79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362143544,
+          "stop" : 1631362147885,
+          "duration" : 4341
+        }
+      }, {
+        "uid" : "66a265698438438e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/66a265698438438e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362143544,
+          "stop" : 1631362147885,
+          "duration" : 4341
+        }
+      }, {
+        "uid" : "9e766996f7628a66",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/9e766996f7628a66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631358756249,
+          "stop" : 1631358759750,
+          "duration" : 3501
+        }
+      }, {
+        "uid" : "aa0ac067c8cbf4b9",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/aa0ac067c8cbf4b9",
+        "status" : "skipped",
+        "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-S56D0AUO', ip: '192.168.0.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+        "time" : {
+          "start" : 1631358709048,
+          "stop" : 1631358709050,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "38486530bdde96f5.json",
+  "parameterValues" : [ "desktop" ]
+}

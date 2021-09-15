@@ -1,0 +1,1382 @@
+{
+  "189dfb6d3096840d0df4a54801908129" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "a6c768eb967ef4e2",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/a6c768eb967ef4e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631710284892,
+        "stop" : 1631710285288,
+        "duration" : 396
+      }
+    }, {
+      "uid" : "a4a477a0e5c55799",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/a4a477a0e5c55799",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631648837935,
+        "stop" : 1631648838264,
+        "duration" : 329
+      }
+    }, {
+      "uid" : "b2739f00222a9df7",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/b2739f00222a9df7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631564373487,
+        "stop" : 1631564374305,
+        "duration" : 818
+      }
+    }, {
+      "uid" : "513221193ad2ecf8",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/513221193ad2ecf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631467617130,
+        "stop" : 1631467617460,
+        "duration" : 330
+      }
+    }, {
+      "uid" : "42feaae88d12e20d",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/42feaae88d12e20d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362153920,
+        "stop" : 1631362155481,
+        "duration" : 1561
+      }
+    }, {
+      "uid" : "e6a6bed133de5011",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/e6a6bed133de5011",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631359370920,
+        "stop" : 1631359371389,
+        "duration" : 469
+      }
+    } ]
+  },
+  "944aca86713d5b5d7e9016cee8e8bd84" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "fc5ff02386aacde4",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/fc5ff02386aacde4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631710295441,
+        "stop" : 1631710296009,
+        "duration" : 568
+      }
+    }, {
+      "uid" : "cd07eef5a2b63a0b",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/cd07eef5a2b63a0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631648843438,
+        "stop" : 1631648843990,
+        "duration" : 552
+      }
+    }, {
+      "uid" : "c580b812c42f5d91",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/c580b812c42f5d91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631564379528,
+        "stop" : 1631564380488,
+        "duration" : 960
+      }
+    }, {
+      "uid" : "f437ec149381e59c",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/f437ec149381e59c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631467622610,
+        "stop" : 1631467623153,
+        "duration" : 543
+      }
+    }, {
+      "uid" : "badaf5edc6449999",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/badaf5edc6449999",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362166492,
+        "stop" : 1631362172478,
+        "duration" : 5986
+      }
+    }, {
+      "uid" : "5eab7b7ad6addd83",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/5eab7b7ad6addd83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631359376576,
+        "stop" : 1631359377207,
+        "duration" : 631
+      }
+    } ]
+  },
+  "304328253e7ee9d4e2c085b52c373550" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "789e6ce6d51983ef",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/789e6ce6d51983ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362174169,
+        "stop" : 1631362174692,
+        "duration" : 523
+      }
+    }, {
+      "uid" : "b4536ce3b4c775ff",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/b4536ce3b4c775ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362174169,
+        "stop" : 1631362174692,
+        "duration" : 523
+      }
+    }, {
+      "uid" : "76d8053dc26c3a30",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/76d8053dc26c3a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362174169,
+        "stop" : 1631362174692,
+        "duration" : 523
+      }
+    }, {
+      "uid" : "5fa0572c6b0f648c",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/5fa0572c6b0f648c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362174169,
+        "stop" : 1631362174692,
+        "duration" : 523
+      }
+    }, {
+      "uid" : "2ad6aa84fe008355",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/2ad6aa84fe008355",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362174169,
+        "stop" : 1631362174692,
+        "duration" : 523
+      }
+    }, {
+      "uid" : "33c80a9292adca32",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/33c80a9292adca32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350330191,
+        "stop" : 1631350330409,
+        "duration" : 218
+      }
+    }, {
+      "uid" : "f26767e4e68f213",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/f26767e4e68f213",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350330191,
+        "stop" : 1631350330409,
+        "duration" : 218
+      }
+    } ]
+  },
+  "924c7a0e554a5a35c99a716b5332aa5d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "997a251ee39c359b",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/997a251ee39c359b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362185805,
+        "stop" : 1631362200397,
+        "duration" : 14592
+      }
+    }, {
+      "uid" : "1cc8915c8aaa844d",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/1cc8915c8aaa844d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362185805,
+        "stop" : 1631362200397,
+        "duration" : 14592
+      }
+    }, {
+      "uid" : "b48ccc4a52499acf",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/b48ccc4a52499acf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362185805,
+        "stop" : 1631362200397,
+        "duration" : 14592
+      }
+    }, {
+      "uid" : "2447bdc5e444c334",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/2447bdc5e444c334",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362185805,
+        "stop" : 1631362200397,
+        "duration" : 14592
+      }
+    }, {
+      "uid" : "5c63f56b17a2b6d7",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/5c63f56b17a2b6d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631361945199,
+        "stop" : 1631361959766,
+        "duration" : 14567
+      }
+    }, {
+      "uid" : "7255b89cd95e2a3",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/7255b89cd95e2a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350339712,
+        "stop" : 1631350354303,
+        "duration" : 14591
+      }
+    }, {
+      "uid" : "7e8c2bbceb1ffca9",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/7e8c2bbceb1ffca9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350339712,
+        "stop" : 1631350354303,
+        "duration" : 14591
+      }
+    } ]
+  },
+  "dade7e10de17c791b7b8a48eb0660536" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "5a8b7dc06fb090c1",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/5a8b7dc06fb090c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175421,
+        "stop" : 1631362175710,
+        "duration" : 289
+      }
+    }, {
+      "uid" : "7ee6fe70941034b6",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/7ee6fe70941034b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175421,
+        "stop" : 1631362175710,
+        "duration" : 289
+      }
+    }, {
+      "uid" : "181750c187efbb23",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/181750c187efbb23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175421,
+        "stop" : 1631362175710,
+        "duration" : 289
+      }
+    }, {
+      "uid" : "dba95c49e1cc0086",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/dba95c49e1cc0086",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175421,
+        "stop" : 1631362175710,
+        "duration" : 289
+      }
+    }, {
+      "uid" : "e91f44eca48fedaa",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/e91f44eca48fedaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175421,
+        "stop" : 1631362175710,
+        "duration" : 289
+      }
+    } ]
+  },
+  "8a8cf97a65cc084f42347b9c1e4b25f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 5,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "76b0be44d29a7a96",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/76b0be44d29a7a96",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1631362163396,
+        "stop" : 1631362163398,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "b9d020e75dc8ed11",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/b9d020e75dc8ed11",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1631362163396,
+        "stop" : 1631362163398,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "1def45816951c115",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/1def45816951c115",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1631362163396,
+        "stop" : 1631362163398,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "e6152f4c5fba47bc",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/e6152f4c5fba47bc",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1631362163396,
+        "stop" : 1631362163398,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "1cf48354a36890b",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/1cf48354a36890b",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1631362163396,
+        "stop" : 1631362163398,
+        "duration" : 2
+      }
+    } ]
+  },
+  "29e206bb76184cccd56888e53e67a480" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "2c8cf01e37f09d25",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/2c8cf01e37f09d25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362172002,
+        "stop" : 1631362175393,
+        "duration" : 3391
+      }
+    }, {
+      "uid" : "297e15c9aa303624",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/297e15c9aa303624",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362172002,
+        "stop" : 1631362175393,
+        "duration" : 3391
+      }
+    }, {
+      "uid" : "55c28ebaea25a047",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/55c28ebaea25a047",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362172002,
+        "stop" : 1631362175393,
+        "duration" : 3391
+      }
+    }, {
+      "uid" : "cdd20afaa3ea246e",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/cdd20afaa3ea246e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362172002,
+        "stop" : 1631362175393,
+        "duration" : 3391
+      }
+    }, {
+      "uid" : "2d16fbda095d32e9",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/2d16fbda095d32e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362172002,
+        "stop" : 1631362175393,
+        "duration" : 3391
+      }
+    } ]
+  },
+  "dd81db50ff66c0d57e24f2b985ee4259" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "7da01ba5b4e76367",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/7da01ba5b4e76367",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362165039,
+        "stop" : 1631362166973,
+        "duration" : 1934
+      }
+    }, {
+      "uid" : "b64962698be2ead4",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/b64962698be2ead4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362165039,
+        "stop" : 1631362166973,
+        "duration" : 1934
+      }
+    }, {
+      "uid" : "dd5a8d5c456dc577",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/dd5a8d5c456dc577",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362165039,
+        "stop" : 1631362166973,
+        "duration" : 1934
+      }
+    }, {
+      "uid" : "39416df57f7a982",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/39416df57f7a982",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362165039,
+        "stop" : 1631362166973,
+        "duration" : 1934
+      }
+    }, {
+      "uid" : "2c0205cb41319fba",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/2c0205cb41319fba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362165039,
+        "stop" : 1631362166973,
+        "duration" : 1934
+      }
+    }, {
+      "uid" : "bc8c01652014ecdf",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/bc8c01652014ecdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350326567,
+        "stop" : 1631350327220,
+        "duration" : 653
+      }
+    }, {
+      "uid" : "4384d6152f63f46f",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/4384d6152f63f46f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350326567,
+        "stop" : 1631350327220,
+        "duration" : 653
+      }
+    } ]
+  },
+  "ff9c8b8363dbca61432a1a32c70c0f1f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "a438f42cfbff27a",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/a438f42cfbff27a",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-S56D0AUO', ip: '192.168.0.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+      "time" : {
+        "start" : 1631358708961,
+        "stop" : 1631358708962,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f553bb5051af2675",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/f553bb5051af2675",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-S56D0AUO', ip: '192.168.0.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+      "time" : {
+        "start" : 1631358708961,
+        "stop" : 1631358708962,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9cc8c42ff49bcd65",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/9cc8c42ff49bcd65",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-S56D0AUO', ip: '192.168.0.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+      "time" : {
+        "start" : 1631358708961,
+        "stop" : 1631358708962,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ba0d6fd1f57041cd",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/ba0d6fd1f57041cd",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-S56D0AUO', ip: '192.168.0.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+      "time" : {
+        "start" : 1631358708961,
+        "stop" : 1631358708962,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2d6a0f1f4bd2a3dc",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/2d6a0f1f4bd2a3dc",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-S56D0AUO', ip: '192.168.0.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+      "time" : {
+        "start" : 1631358708961,
+        "stop" : 1631358708962,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3216467ff4f901cb",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/3216467ff4f901cb",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-S56D0AUO', ip: '192.168.0.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+      "time" : {
+        "start" : 1631358708961,
+        "stop" : 1631358708962,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c5eecdfd23718693",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/c5eecdfd23718693",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-S56D0AUO', ip: '192.168.0.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+      "time" : {
+        "start" : 1631358708961,
+        "stop" : 1631358708962,
+        "duration" : 1
+      }
+    } ]
+  },
+  "ced93ce68a1db6ccd9cbb42239c55e1c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "4aa4fb29f3cf7d05",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/4aa4fb29f3cf7d05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362161100,
+        "stop" : 1631362164395,
+        "duration" : 3295
+      }
+    }, {
+      "uid" : "43b8a6091dd48590",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/43b8a6091dd48590",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362161100,
+        "stop" : 1631362164395,
+        "duration" : 3295
+      }
+    }, {
+      "uid" : "cb89d8d1fdb4fda2",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/cb89d8d1fdb4fda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362161100,
+        "stop" : 1631362164395,
+        "duration" : 3295
+      }
+    }, {
+      "uid" : "27b026f9c23adc31",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/27b026f9c23adc31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362161100,
+        "stop" : 1631362164395,
+        "duration" : 3295
+      }
+    }, {
+      "uid" : "1ed05a19ab417c3f",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/1ed05a19ab417c3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362161100,
+        "stop" : 1631362164395,
+        "duration" : 3295
+      }
+    }, {
+      "uid" : "b16751c06058f56c",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/b16751c06058f56c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350325111,
+        "stop" : 1631350326208,
+        "duration" : 1097
+      }
+    }, {
+      "uid" : "4deb25c5232665bb",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/4deb25c5232665bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350325111,
+        "stop" : 1631350326208,
+        "duration" : 1097
+      }
+    } ]
+  },
+  "2cf208d2857ce38be97b66a332d3b577" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "2c8386296d821d8a",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/2c8386296d821d8a",
+      "status" : "failed",
+      "statusDetails" : "expected [Welcome to Graf] but found [Welcome to Grafana]",
+      "time" : {
+        "start" : 1631362174678,
+        "stop" : 1631362177700,
+        "duration" : 3022
+      }
+    }, {
+      "uid" : "16c9db40d1936fe7",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/16c9db40d1936fe7",
+      "status" : "failed",
+      "statusDetails" : "expected [Welcome to Graf] but found [Welcome to Grafana]",
+      "time" : {
+        "start" : 1631362174678,
+        "stop" : 1631362177700,
+        "duration" : 3022
+      }
+    }, {
+      "uid" : "62a7026e01f92e52",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/62a7026e01f92e52",
+      "status" : "failed",
+      "statusDetails" : "expected [Welcome to Graf] but found [Welcome to Grafana]",
+      "time" : {
+        "start" : 1631362174678,
+        "stop" : 1631362177700,
+        "duration" : 3022
+      }
+    }, {
+      "uid" : "5560a8832fffb9cf",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/5560a8832fffb9cf",
+      "status" : "failed",
+      "statusDetails" : "expected [Welcome to Graf] but found [Welcome to Grafana]",
+      "time" : {
+        "start" : 1631362174678,
+        "stop" : 1631362177700,
+        "duration" : 3022
+      }
+    }, {
+      "uid" : "680740ec0ab9ed95",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/680740ec0ab9ed95",
+      "status" : "failed",
+      "statusDetails" : "expected [Welcome to Graf] but found [Welcome to Grafana]",
+      "time" : {
+        "start" : 1631362174678,
+        "stop" : 1631362177700,
+        "duration" : 3022
+      }
+    } ]
+  },
+  "3a850f4d3f53f584cfb5cf59b09cabbc" : {
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "aad8fc65209c8672",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/aad8fc65209c8672",
+      "status" : "failed",
+      "statusDetails" : "did not expect to find [false] but found [true]",
+      "time" : {
+        "start" : 1631362181719,
+        "stop" : 1631362185562,
+        "duration" : 3843
+      }
+    }, {
+      "uid" : "c985ff2d84ffd8e",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/c985ff2d84ffd8e",
+      "status" : "failed",
+      "statusDetails" : "did not expect to find [false] but found [true]",
+      "time" : {
+        "start" : 1631362181719,
+        "stop" : 1631362185562,
+        "duration" : 3843
+      }
+    }, {
+      "uid" : "a67c82b7d875acc5",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/a67c82b7d875acc5",
+      "status" : "failed",
+      "statusDetails" : "did not expect to find [false] but found [true]",
+      "time" : {
+        "start" : 1631362181719,
+        "stop" : 1631362185562,
+        "duration" : 3843
+      }
+    }, {
+      "uid" : "7c4337de29649e1e",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/7c4337de29649e1e",
+      "status" : "failed",
+      "statusDetails" : "did not expect to find [false] but found [true]",
+      "time" : {
+        "start" : 1631362181719,
+        "stop" : 1631362185562,
+        "duration" : 3843
+      }
+    }, {
+      "uid" : "2f89f31c9fac011d",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/2f89f31c9fac011d",
+      "status" : "failed",
+      "statusDetails" : "did not expect to find [false] but found [true]",
+      "time" : {
+        "start" : 1631362181719,
+        "stop" : 1631362185562,
+        "duration" : 3843
+      }
+    }, {
+      "uid" : "95a2c8181a682db9",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/95a2c8181a682db9",
+      "status" : "failed",
+      "statusDetails" : "did not expect to find [false] but found [true]",
+      "time" : {
+        "start" : 1631350335994,
+        "stop" : 1631350339470,
+        "duration" : 3476
+      }
+    }, {
+      "uid" : "a758ac21219e0eaf",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/a758ac21219e0eaf",
+      "status" : "failed",
+      "statusDetails" : "did not expect to find [false] but found [true]",
+      "time" : {
+        "start" : 1631350335994,
+        "stop" : 1631350339470,
+        "duration" : 3476
+      }
+    } ]
+  },
+  "c31010eed25dc4bc854f9b4dbb33a96a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "b7c6094b33381dc6",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/b7c6094b33381dc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175734,
+        "stop" : 1631362175929,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "998c9e6503e3e885",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/998c9e6503e3e885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175734,
+        "stop" : 1631362175929,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "a569b47493a59204",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/a569b47493a59204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175734,
+        "stop" : 1631362175929,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "cb9a7ab0160f8424",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/cb9a7ab0160f8424",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175734,
+        "stop" : 1631362175929,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "ea514e3c53f6b309",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/ea514e3c53f6b309",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175734,
+        "stop" : 1631362175929,
+        "duration" : 195
+      }
+    } ]
+  },
+  "ff53ed6115e71ad143d66e5910b80947" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "3e7866c34211602a",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/3e7866c34211602a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362167655,
+        "stop" : 1631362171911,
+        "duration" : 4256
+      }
+    }, {
+      "uid" : "c366893aa8c5d432",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/c366893aa8c5d432",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362167655,
+        "stop" : 1631362171911,
+        "duration" : 4256
+      }
+    }, {
+      "uid" : "19823558d0ec899a",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/19823558d0ec899a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362167655,
+        "stop" : 1631362171911,
+        "duration" : 4256
+      }
+    }, {
+      "uid" : "376b1dc8b1105a98",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/376b1dc8b1105a98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362167655,
+        "stop" : 1631362171911,
+        "duration" : 4256
+      }
+    }, {
+      "uid" : "83881e5043d0d81",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/83881e5043d0d81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362167655,
+        "stop" : 1631362171911,
+        "duration" : 4256
+      }
+    }, {
+      "uid" : "ffc0e01a10945d2b",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/ffc0e01a10945d2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350327419,
+        "stop" : 1631350328723,
+        "duration" : 1304
+      }
+    }, {
+      "uid" : "9e98a0c46df7a03b",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/9e98a0c46df7a03b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350327419,
+        "stop" : 1631350328723,
+        "duration" : 1304
+      }
+    } ]
+  },
+  "cbb2573161c3234f29ed772247ba25c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 5,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "bbbf3c0ca41dfdfc",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/bbbf3c0ca41dfdfc",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1631362163129,
+        "stop" : 1631362163131,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "dd2ccf14544a98c8",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/dd2ccf14544a98c8",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1631362163129,
+        "stop" : 1631362163131,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "dd470875eeb0f57",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/dd470875eeb0f57",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1631362163129,
+        "stop" : 1631362163131,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "941d9372c0431e70",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/941d9372c0431e70",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1631362163129,
+        "stop" : 1631362163131,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "359991ee7a9cdbff",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/359991ee7a9cdbff",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1631362163129,
+        "stop" : 1631362163131,
+        "duration" : 2
+      }
+    } ]
+  },
+  "8271fadbc3da4e24f101a15df31a65cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "25f98a665818ac20",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/25f98a665818ac20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362172448,
+        "stop" : 1631362173885,
+        "duration" : 1437
+      }
+    }, {
+      "uid" : "66f62d6057e22300",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/66f62d6057e22300",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362172448,
+        "stop" : 1631362173885,
+        "duration" : 1437
+      }
+    }, {
+      "uid" : "f5e5d86b216532e2",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/f5e5d86b216532e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362172448,
+        "stop" : 1631362173885,
+        "duration" : 1437
+      }
+    }, {
+      "uid" : "6ac9760c828fa5bf",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/6ac9760c828fa5bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362172448,
+        "stop" : 1631362173885,
+        "duration" : 1437
+      }
+    }, {
+      "uid" : "a713b006325aec2d",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/a713b006325aec2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362172448,
+        "stop" : 1631362173885,
+        "duration" : 1437
+      }
+    }, {
+      "uid" : "37e77a493288b5e5",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/37e77a493288b5e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350328942,
+        "stop" : 1631350329987,
+        "duration" : 1045
+      }
+    }, {
+      "uid" : "a1466957dc855375",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/a1466957dc855375",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350328942,
+        "stop" : 1631350329987,
+        "duration" : 1045
+      }
+    } ]
+  },
+  "46a4c3c02781b3d1495d5832f4351203" : {
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "f8c37b20a8f771f5",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/f8c37b20a8f771f5",
+      "status" : "failed",
+      "statusDetails" : "Error comparing image fileFindFailed: C:\\\\Automation\\\\Automation_Project\\\\ImageRepository\\GrafanaUserPic.png: (48x56) in R[0,0 1920x1080]@S(0)\n  Line 2287, in file Region.java\n",
+      "time" : {
+        "start" : 1631362175067,
+        "stop" : 1631362176678,
+        "duration" : 1611
+      }
+    }, {
+      "uid" : "4bc23ef3dfef2d49",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/4bc23ef3dfef2d49",
+      "status" : "failed",
+      "statusDetails" : "Error comparing image fileFindFailed: C:\\\\Automation\\\\Automation_Project\\\\ImageRepository\\GrafanaUserPic.png: (48x56) in R[0,0 1920x1080]@S(0)\n  Line 2287, in file Region.java\n",
+      "time" : {
+        "start" : 1631362175067,
+        "stop" : 1631362176678,
+        "duration" : 1611
+      }
+    }, {
+      "uid" : "f693f40082dc97b8",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/f693f40082dc97b8",
+      "status" : "failed",
+      "statusDetails" : "Error comparing image fileFindFailed: C:\\\\Automation\\\\Automation_Project\\\\ImageRepository\\GrafanaUserPic.png: (48x56) in R[0,0 1920x1080]@S(0)\n  Line 2287, in file Region.java\n",
+      "time" : {
+        "start" : 1631362175067,
+        "stop" : 1631362176678,
+        "duration" : 1611
+      }
+    }, {
+      "uid" : "819241c93030b336",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/819241c93030b336",
+      "status" : "failed",
+      "statusDetails" : "Error comparing image fileFindFailed: C:\\\\Automation\\\\Automation_Project\\\\ImageRepository\\GrafanaUserPic.png: (48x56) in R[0,0 1920x1080]@S(0)\n  Line 2287, in file Region.java\n",
+      "time" : {
+        "start" : 1631362175067,
+        "stop" : 1631362176678,
+        "duration" : 1611
+      }
+    }, {
+      "uid" : "13e49733d96f054",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/13e49733d96f054",
+      "status" : "failed",
+      "statusDetails" : "Error comparing image fileFindFailed: C:\\\\Automation\\\\Automation_Project\\\\ImageRepository\\GrafanaUserPic.png: (48x56) in R[0,0 1920x1080]@S(0)\n  Line 2287, in file Region.java\n",
+      "time" : {
+        "start" : 1631362175067,
+        "stop" : 1631362176678,
+        "duration" : 1611
+      }
+    }, {
+      "uid" : "90d7260081fca03c",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/90d7260081fca03c",
+      "status" : "failed",
+      "statusDetails" : "Error comparing image fileFindFailed: C:\\\\Automation\\\\Automation_Project\\\\ImageRepository\\GrafanaUserPic.png: (48x56) in R[0,0 1920x1080]@S(0)\n  Line 2287, in file Region.java\n",
+      "time" : {
+        "start" : 1631350330594,
+        "stop" : 1631350331494,
+        "duration" : 900
+      }
+    }, {
+      "uid" : "e87190dbf865a8e3",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/e87190dbf865a8e3",
+      "status" : "failed",
+      "statusDetails" : "Error comparing image fileFindFailed: C:\\\\Automation\\\\Automation_Project\\\\ImageRepository\\GrafanaUserPic.png: (48x56) in R[0,0 1920x1080]@S(0)\n  Line 2287, in file Region.java\n",
+      "time" : {
+        "start" : 1631350330594,
+        "stop" : 1631350331494,
+        "duration" : 900
+      }
+    } ]
+  },
+  "7e51f2fd33255c951167a9cd8970e43d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "b1ae5b7c93bc8e90",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/b1ae5b7c93bc8e90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175944,
+        "stop" : 1631362176108,
+        "duration" : 164
+      }
+    }, {
+      "uid" : "3065424688094c54",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/3065424688094c54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175944,
+        "stop" : 1631362176108,
+        "duration" : 164
+      }
+    }, {
+      "uid" : "5d4b4531ccf71925",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/5d4b4531ccf71925",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175944,
+        "stop" : 1631362176108,
+        "duration" : 164
+      }
+    }, {
+      "uid" : "7387531800a5b868",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/7387531800a5b868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175944,
+        "stop" : 1631362176108,
+        "duration" : 164
+      }
+    }, {
+      "uid" : "1df245a8f7bf9c5e",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/1df245a8f7bf9c5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362175944,
+        "stop" : 1631362176108,
+        "duration" : 164
+      }
+    } ]
+  },
+  "5279663c4cdae89ec9d1e2678cd08260" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "5b204bd5c809c868",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/5b204bd5c809c868",
+      "status" : "broken",
+      "statusDetails" : "Invalid output of the testing",
+      "time" : {
+        "start" : 1631362177193,
+        "stop" : 1631362181404,
+        "duration" : 4211
+      }
+    }, {
+      "uid" : "34db7de597884b33",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/34db7de597884b33",
+      "status" : "broken",
+      "statusDetails" : "Invalid output of the testing",
+      "time" : {
+        "start" : 1631362177193,
+        "stop" : 1631362181404,
+        "duration" : 4211
+      }
+    }, {
+      "uid" : "5e2aa9ea73d9aec3",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/5e2aa9ea73d9aec3",
+      "status" : "broken",
+      "statusDetails" : "Invalid output of the testing",
+      "time" : {
+        "start" : 1631362177193,
+        "stop" : 1631362181404,
+        "duration" : 4211
+      }
+    }, {
+      "uid" : "af8bbc07d8957239",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/af8bbc07d8957239",
+      "status" : "broken",
+      "statusDetails" : "Invalid output of the testing",
+      "time" : {
+        "start" : 1631362177193,
+        "stop" : 1631362181404,
+        "duration" : 4211
+      }
+    }, {
+      "uid" : "64eff1d2d4e97994",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/64eff1d2d4e97994",
+      "status" : "broken",
+      "statusDetails" : "Invalid output of the testing",
+      "time" : {
+        "start" : 1631362177193,
+        "stop" : 1631362181404,
+        "duration" : 4211
+      }
+    }, {
+      "uid" : "15cbd542268cca83",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/15cbd542268cca83",
+      "status" : "broken",
+      "statusDetails" : "Invalid output of the testing",
+      "time" : {
+        "start" : 1631350331704,
+        "stop" : 1631350335776,
+        "duration" : 4072
+      }
+    }, {
+      "uid" : "4fe83a54ae4a585f",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/4fe83a54ae4a585f",
+      "status" : "broken",
+      "statusDetails" : "Invalid output of the testing",
+      "time" : {
+        "start" : 1631350331704,
+        "stop" : 1631350335776,
+        "duration" : 4072
+      }
+    } ]
+  },
+  "3294e2032e86ba7fec218db3773bbb49" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "38486530bdde96f5",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure/#testresult/38486530bdde96f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362143544,
+        "stop" : 1631362147885,
+        "duration" : 4341
+      }
+    }, {
+      "uid" : "9969972d0c6fe9f5",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/9969972d0c6fe9f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362143544,
+        "stop" : 1631362147885,
+        "duration" : 4341
+      }
+    }, {
+      "uid" : "139f30fa9caf7dc8",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/139f30fa9caf7dc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362143544,
+        "stop" : 1631362147885,
+        "duration" : 4341
+      }
+    }, {
+      "uid" : "de22045b8cf72c79",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/de22045b8cf72c79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362143544,
+        "stop" : 1631362147885,
+        "duration" : 4341
+      }
+    }, {
+      "uid" : "66a265698438438e",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/66a265698438438e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362143544,
+        "stop" : 1631362147885,
+        "duration" : 4341
+      }
+    }, {
+      "uid" : "9e766996f7628a66",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/9e766996f7628a66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631358756249,
+        "stop" : 1631358759750,
+        "duration" : 3501
+      }
+    }, {
+      "uid" : "aa0ac067c8cbf4b9",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/aa0ac067c8cbf4b9",
+      "status" : "skipped",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-S56D0AUO', ip: '192.168.0.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+      "time" : {
+        "start" : 1631358709048,
+        "stop" : 1631358709050,
+        "duration" : 2
+      }
+    } ]
+  }
+}

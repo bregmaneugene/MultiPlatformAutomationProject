@@ -1,0 +1,115 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-S56D0AUO', ip: '192.168.0.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: WindowsDriver",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "a438f42cfbff27a",
+        "parentUid" : "ce12b3f88e49521707b8993bc96d4519",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631358708961,
+          "stop" : 1631358708962,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "ce12b3f88e49521707b8993bc96d4519"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "bbbf3c0ca41dfdfc",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631362163129,
+          "stop" : 1631362163131,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "Invalid output of the testing",
+      "children" : [ {
+        "name" : "Test07 - Verify user's pic icon",
+        "uid" : "5b204bd5c809c868",
+        "parentUid" : "8c5df49d362c09f596ccc49049909de2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631362177193,
+          "stop" : 1631362181404,
+          "duration" : 4211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "eugene", " exists" ]
+      } ],
+      "uid" : "8c5df49d362c09f596ccc49049909de2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [Welcome to Graf] but found [Welcome to Grafana]",
+      "children" : [ {
+        "name" : "Test01 - Login to Grafana via credentials from the DB",
+        "uid" : "2c8386296d821d8a",
+        "parentUid" : "18bd979ffaeb4c027ee241a9e09d77d1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631362174678,
+          "stop" : 1631362177700,
+          "duration" : 3022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "18bd979ffaeb4c027ee241a9e09d77d1"
+    }, {
+      "name" : "Error comparing image fileFindFailed: C:\\\\Automation\\\\Automation_Project\\\\ImageRepository\\GrafanaUserPic.png: (48x56) in R[0,0 1920x1080]@S(0)\n  Line 2287, in file Region.java\n",
+      "children" : [ {
+        "name" : "Test06 - Verify user's pic icon",
+        "uid" : "f8c37b20a8f771f5",
+        "parentUid" : "1e9058a7fc140e788805bcc6488e8859",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631362175067,
+          "stop" : 1631362176678,
+          "duration" : 1611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "1e9058a7fc140e788805bcc6488e8859"
+    }, {
+      "name" : "did not expect to find [false] but found [true]",
+      "children" : [ {
+        "name" : "Test07 - Verify user's pic icon",
+        "uid" : "aad8fc65209c8672",
+        "parentUid" : "f04a7714a9c0c06cc130a05160cdde68",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631362181719,
+          "stop" : 1631362185562,
+          "duration" : 3843
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "admin", "don't exist" ]
+      } ],
+      "uid" : "f04a7714a9c0c06cc130a05160cdde68"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

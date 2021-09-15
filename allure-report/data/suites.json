@@ -1,0 +1,297 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Web Suite",
+    "children" : [ {
+      "name" : "Web tests",
+      "children" : [ {
+        "name" : "sanity.CalculatorDesktop",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "a438f42cfbff27a",
+          "parentUid" : "5467ba89bafee745f767809d497a400e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1631358708961,
+            "stop" : 1631358708962,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "desktop" ]
+        }, {
+          "name" : "Test 01: Validate Addition action",
+          "uid" : "38486530bdde96f5",
+          "parentUid" : "5467ba89bafee745f767809d497a400e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631362143544,
+            "stop" : 1631362147885,
+            "duration" : 4341
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "desktop" ]
+        } ],
+        "uid" : "5467ba89bafee745f767809d497a400e"
+      }, {
+        "name" : "sanity.GrafanaWeb",
+        "children" : [ {
+          "name" : "Test01 - Verify Page Title",
+          "uid" : "4aa4fb29f3cf7d05",
+          "parentUid" : "bfe23afe27993062e1b75b29a1481c94",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631362161100,
+            "stop" : 1631362164395,
+            "duration" : 3295
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test02 - Verify default user",
+          "uid" : "7da01ba5b4e76367",
+          "parentUid" : "bfe23afe27993062e1b75b29a1481c94",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631362165039,
+            "stop" : 1631362166973,
+            "duration" : 1934
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test03 - Verify new added user",
+          "uid" : "3e7866c34211602a",
+          "parentUid" : "bfe23afe27993062e1b75b29a1481c94",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631362167655,
+            "stop" : 1631362171911,
+            "duration" : 4256
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test04 - Verify removal of the user",
+          "uid" : "25f98a665818ac20",
+          "parentUid" : "bfe23afe27993062e1b75b29a1481c94",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631362172448,
+            "stop" : 1631362173885,
+            "duration" : 1437
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test05 - Verify the start page's panel elements",
+          "uid" : "789e6ce6d51983ef",
+          "parentUid" : "bfe23afe27993062e1b75b29a1481c94",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631362174169,
+            "stop" : 1631362174692,
+            "duration" : 523
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test06 - Verify user's pic icon",
+          "uid" : "f8c37b20a8f771f5",
+          "parentUid" : "bfe23afe27993062e1b75b29a1481c94",
+          "status" : "failed",
+          "time" : {
+            "start" : 1631362175067,
+            "stop" : 1631362176678,
+            "duration" : 1611
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test07 - Verify user's pic icon",
+          "uid" : "5b204bd5c809c868",
+          "parentUid" : "bfe23afe27993062e1b75b29a1481c94",
+          "status" : "broken",
+          "time" : {
+            "start" : 1631362177193,
+            "stop" : 1631362181404,
+            "duration" : 4211
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web", "eugene", " exists" ]
+        }, {
+          "name" : "Test07 - Verify user's pic icon",
+          "uid" : "aad8fc65209c8672",
+          "parentUid" : "bfe23afe27993062e1b75b29a1481c94",
+          "status" : "failed",
+          "time" : {
+            "start" : 1631362181719,
+            "stop" : 1631362185562,
+            "duration" : 3843
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web", "admin", "don't exist" ]
+        }, {
+          "name" : "Test07 - Verify user's pic icon",
+          "uid" : "997a251ee39c359b",
+          "parentUid" : "bfe23afe27993062e1b75b29a1481c94",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631362185805,
+            "stop" : 1631362200397,
+            "duration" : 14592
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web", "bregman", "don't exist" ]
+        } ],
+        "uid" : "bfe23afe27993062e1b75b29a1481c94"
+      }, {
+        "name" : "sanity.MortgageCalcMob",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "bbbf3c0ca41dfdfc",
+          "parentUid" : "505aca23f35006f53d3ac2f6f7a35781",
+          "status" : "broken",
+          "time" : {
+            "start" : 1631362163129,
+            "stop" : 1631362163131,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "mobile" ]
+        }, {
+          "name" : "Test01 - Verify the motgage calculation",
+          "uid" : "76b0be44d29a7a96",
+          "parentUid" : "505aca23f35006f53d3ac2f6f7a35781",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1631362163396,
+            "stop" : 1631362163398,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "mobile" ]
+        } ],
+        "uid" : "505aca23f35006f53d3ac2f6f7a35781"
+      }, {
+        "name" : "sanity.GrafanaAPI",
+        "children" : [ {
+          "name" : "Test 01: Verify team's name in Grafana ",
+          "uid" : "2c8cf01e37f09d25",
+          "parentUid" : "f994c90941135131d734ef29d7101af0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631362172002,
+            "stop" : 1631362175393,
+            "duration" : 3391
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test 02: Add new team and verify team's name in Grafana ",
+          "uid" : "5a8b7dc06fb090c1",
+          "parentUid" : "f994c90941135131d734ef29d7101af0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631362175421,
+            "stop" : 1631362175710,
+            "duration" : 289
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test 03: Update team and verify team's name in Grafana ",
+          "uid" : "b7c6094b33381dc6",
+          "parentUid" : "f994c90941135131d734ef29d7101af0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631362175734,
+            "stop" : 1631362175929,
+            "duration" : 195
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test 04: Delete team and verify its removal",
+          "uid" : "b1ae5b7c93bc8e90",
+          "parentUid" : "f994c90941135131d734ef29d7101af0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631362175944,
+            "stop" : 1631362176108,
+            "duration" : 164
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        } ],
+        "uid" : "f994c90941135131d734ef29d7101af0"
+      }, {
+        "name" : "sanity.GrafanaWebDB",
+        "children" : [ {
+          "name" : "Test01 - Login to Grafana via credentials from the DB",
+          "uid" : "2c8386296d821d8a",
+          "parentUid" : "d93170316bb823d2a135a729db4e72b1",
+          "status" : "failed",
+          "time" : {
+            "start" : 1631362174678,
+            "stop" : 1631362177700,
+            "duration" : 3022
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        } ],
+        "uid" : "d93170316bb823d2a135a729db4e72b1"
+      }, {
+        "name" : "sanity.ToDoListElectron",
+        "children" : [ {
+          "name" : "Test 01: Add task and check total number of tasks is changed",
+          "uid" : "a6c768eb967ef4e2",
+          "parentUid" : "94bd720ba3727bb815543899cbe092dd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631710284892,
+            "stop" : 1631710285288,
+            "duration" : 396
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        }, {
+          "name" : "Test 02: Add more tasks and check total number of tasks is changed",
+          "uid" : "fc5ff02386aacde4",
+          "parentUid" : "94bd720ba3727bb815543899cbe092dd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631710295441,
+            "stop" : 1631710296009,
+            "duration" : 568
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        } ],
+        "uid" : "94bd720ba3727bb815543899cbe092dd"
+      } ],
+      "uid" : "1477111fc85b1ef323c39e8e97c51d78"
+    } ],
+    "uid" : "3ee6c328cd13b7bf8cf2e1560d3cdfae"
+  } ]
+}

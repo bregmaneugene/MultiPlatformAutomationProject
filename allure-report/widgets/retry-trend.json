@@ -1,0 +1,57 @@
+[ {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 20,
+    "retry" : 44
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 20,
+    "retry" : 42
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 20,
+    "retry" : 40
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 20,
+    "retry" : 38
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 20,
+    "retry" : 35
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 13,
+    "retry" : 1
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 11,
+    "retry" : 0
+  }
+} ]

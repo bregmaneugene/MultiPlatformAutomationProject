@@ -1,0 +1,397 @@
+{
+  "uid" : "a6c768eb967ef4e2",
+  "name" : "Test 01: Add task and check total number of tasks is changed",
+  "fullName" : "sanity.ToDoListElectron.test01_addTaskAndCheck",
+  "historyId" : "189dfb6d3096840d0df4a54801908129",
+  "time" : {
+    "start" : 1631710284892,
+    "stop" : 1631710285288,
+    "duration" : 396
+  },
+  "description" : "Test 01: Adds and verifies the new task in the list ",
+  "descriptionHtml" : "<p>Test 01: Adds and verifies the new task in the list</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1631710284711,
+      "stop" : 1631710284780,
+      "duration" : 69
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1631710278158,
+      "stop" : 1631710284700,
+      "duration" : 6542
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test 01: Adds and verifies the new task in the list ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Work Flow: Add a task",
+      "time" : {
+        "start" : 1631710284919,
+        "stop" : 1631710285195,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1631710284962,
+          "stop" : 1631710285130,
+          "duration" : 168
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (175559970f280c0ef71a3ea236ac3439)] -> css selector: input[placeholder='Create a task']]"
+        }, {
+          "name" : "text",
+          "value" : "Research Universe"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Insert Keys",
+        "time" : {
+          "start" : 1631710285145,
+          "stop" : 1631710285195,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (175559970f280c0ef71a3ea236ac3439)] -> css selector: input[placeholder='Create a task']]"
+        }, {
+          "name" : "keys",
+          "value" : ""
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "taskName",
+        "value" : "Research Universe"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Work Flow: Count tasks quantity in the list",
+      "time" : {
+        "start" : 1631710285196,
+        "stop" : 1631710285217,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Number correctness",
+      "time" : {
+        "start" : 1631710285225,
+        "stop" : 1631710285227,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "1"
+      }, {
+        "name" : "expected",
+        "value" : "1"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1631710285297,
+      "stop" : 1631710295431,
+      "duration" : 10134
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Work Flow: Removes tasks from the list",
+      "time" : {
+        "start" : 1631710285297,
+        "stop" : 1631710295431,
+        "duration" : 10134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Work Flow: Count tasks quantity in the list",
+        "time" : {
+          "start" : 1631710285297,
+          "stop" : 1631710285310,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Mouse Hover Element",
+        "time" : {
+          "start" : 1631710285327,
+          "stop" : 1631710290403,
+          "duration" : 5076
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on XP (175559970f280c0ef71a3ea236ac3439)] -> class name: destroy_19w1q]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Work Flow: Count tasks quantity in the list",
+        "time" : {
+          "start" : 1631710290403,
+          "stop" : 1631710295431,
+          "duration" : 5028
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeStation",
+    "time" : {
+      "start" : 1631710306266,
+      "stop" : 1631710306829,
+      "duration" : 563
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.ToDoListElectron"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.ToDoListElectron"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_addTaskAndCheck"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.ToDoListElectron"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-S56D0AUO"
+  }, {
+    "name" : "thread",
+    "value" : "22828@LAPTOP-S56D0AUO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "electron"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "49c4e08478632bd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631648837935,
+        "stop" : 1631648838264,
+        "duration" : 329
+      }
+    }, {
+      "uid" : "d177367215b6e3a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631564373487,
+        "stop" : 1631564374305,
+        "duration" : 818
+      }
+    }, {
+      "uid" : "b7f833ebde954a69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631467617130,
+        "stop" : 1631467617460,
+        "duration" : 330
+      }
+    }, {
+      "uid" : "d970718582e96fce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631362153920,
+        "stop" : 1631362155481,
+        "duration" : 1561
+      }
+    }, {
+      "uid" : "d8a39a2dc008690",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631359370920,
+        "stop" : 1631359371389,
+        "duration" : 469
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "a4a477a0e5c55799",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/a4a477a0e5c55799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631648837935,
+          "stop" : 1631648838264,
+          "duration" : 329
+        }
+      }, {
+        "uid" : "b2739f00222a9df7",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/b2739f00222a9df7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631564373487,
+          "stop" : 1631564374305,
+          "duration" : 818
+        }
+      }, {
+        "uid" : "513221193ad2ecf8",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/513221193ad2ecf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631467617130,
+          "stop" : 1631467617460,
+          "duration" : 330
+        }
+      }, {
+        "uid" : "42feaae88d12e20d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/42feaae88d12e20d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362153920,
+          "stop" : 1631362155481,
+          "duration" : 1561
+        }
+      }, {
+        "uid" : "e6a6bed133de5011",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/e6a6bed133de5011",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631359370920,
+          "stop" : 1631359371389,
+          "duration" : 469
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a6c768eb967ef4e2.json",
+  "parameterValues" : [ "electron" ]
+}

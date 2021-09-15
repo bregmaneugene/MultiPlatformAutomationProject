@@ -1,0 +1,325 @@
+{
+  "uid" : "5a8b7dc06fb090c1",
+  "name" : "Test 02: Add new team and verify team's name in Grafana ",
+  "fullName" : "sanity.GrafanaAPI.test02_addTeamAndVerification",
+  "historyId" : "dade7e10de17c791b7b8a48eb0660536",
+  "time" : {
+    "start" : 1631362175421,
+    "stop" : 1631362175710,
+    "duration" : 289
+  },
+  "description" : "Test 02:  Adds the team and verifies its name in Grafana ",
+  "descriptionHtml" : "<p>Test 02:  Adds the team and verifies its name in Grafana</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1631362175415,
+      "stop" : 1631362175416,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1631362167255,
+      "stop" : 1631362171738,
+      "duration" : 4483
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test 02:  Adds the team and verifies its name in Grafana ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Work Flow: Create New Team",
+      "time" : {
+        "start" : 1631362175421,
+        "stop" : 1631362175640,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Post data to server",
+        "time" : {
+          "start" : 1631362175423,
+          "stop" : 1631362175640,
+          "duration" : 217
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{\"name\":\"EugeneTeam\",\"email\":\"eugeneteam@best.com\"}"
+        }, {
+          "name" : "resource",
+          "value" : "/api/teams"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "EugeneTeam"
+      }, {
+        "name" : "email",
+        "value" : "eugeneteam@best.com"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Work Flow: Get Team Property",
+      "time" : {
+        "start" : 1631362175641,
+        "stop" : 1631362175710,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get data from server",
+        "time" : {
+          "start" : 1631362175641,
+          "stop" : 1631362175688,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Extract value from JSON",
+        "time" : {
+          "start" : 1631362175688,
+          "stop" : 1631362175710,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@24435620"
+        }, {
+          "name" : "path",
+          "value" : "teams[0].name"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jsonPath",
+        "value" : "teams[0].name"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Text correctness",
+      "time" : {
+        "start" : 1631362175710,
+        "stop" : 1631362175710,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "EugeneTeam"
+      }, {
+        "name" : "expected",
+        "value" : "EugeneTeam"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1631362175714,
+      "stop" : 1631362175714,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeStation",
+    "time" : {
+      "start" : 1631362176115,
+      "stop" : 1631362176134,
+      "duration" : 19
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_addTeamAndVerification"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-S56D0AUO"
+  }, {
+    "name" : "thread",
+    "value" : "21652@LAPTOP-S56D0AUO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b0cba7429913b5ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631361910706,
+        "stop" : 1631361910811,
+        "duration" : 105
+      }
+    }, {
+      "uid" : "b9663ef6d5219c41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631359439555,
+        "stop" : 1631359439661,
+        "duration" : 106
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "7ee6fe70941034b6",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/7ee6fe70941034b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362175421,
+          "stop" : 1631362175710,
+          "duration" : 289
+        }
+      }, {
+        "uid" : "181750c187efbb23",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/181750c187efbb23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362175421,
+          "stop" : 1631362175710,
+          "duration" : 289
+        }
+      }, {
+        "uid" : "dba95c49e1cc0086",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/dba95c49e1cc0086",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362175421,
+          "stop" : 1631362175710,
+          "duration" : 289
+        }
+      }, {
+        "uid" : "e91f44eca48fedaa",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/e91f44eca48fedaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362175421,
+          "stop" : 1631362175710,
+          "duration" : 289
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5a8b7dc06fb090c1.json",
+  "parameterValues" : [ "api" ]
+}

@@ -1,0 +1,293 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "sanity",
+    "children" : [ {
+      "name" : "CalculatorDesktop",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "a438f42cfbff27a",
+        "parentUid" : "6f1b41a095dd37ac98b5447b76e03950",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631358708961,
+          "stop" : 1631358708962,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "test01_addTaskAndCheck",
+        "uid" : "38486530bdde96f5",
+        "parentUid" : "6f1b41a095dd37ac98b5447b76e03950",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362143544,
+          "stop" : 1631362147885,
+          "duration" : 4341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "6f1b41a095dd37ac98b5447b76e03950"
+    }, {
+      "name" : "GrafanaWeb",
+      "children" : [ {
+        "name" : "test01_checkTitle",
+        "uid" : "4aa4fb29f3cf7d05",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362161100,
+          "stop" : 1631362164395,
+          "duration" : 3295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test02_adminRowValidation",
+        "uid" : "7da01ba5b4e76367",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362165039,
+          "stop" : 1631362166973,
+          "duration" : 1934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test03_newUserValidation",
+        "uid" : "3e7866c34211602a",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362167655,
+          "stop" : 1631362171911,
+          "duration" : 4256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test04_userRemoval",
+        "uid" : "25f98a665818ac20",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362172448,
+          "stop" : 1631362173885,
+          "duration" : 1437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test05_verifyStartPanelStages",
+        "uid" : "789e6ce6d51983ef",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362174169,
+          "stop" : 1631362174692,
+          "duration" : 523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test06_verifyUserPicIcon",
+        "uid" : "f8c37b20a8f771f5",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631362175067,
+          "stop" : 1631362176678,
+          "duration" : 1611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test07_verifySearchUsern",
+        "uid" : "5b204bd5c809c868",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631362177193,
+          "stop" : 1631362181404,
+          "duration" : 4211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "eugene", " exists" ]
+      }, {
+        "name" : "test07_verifySearchUsern",
+        "uid" : "aad8fc65209c8672",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631362181719,
+          "stop" : 1631362185562,
+          "duration" : 3843
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "admin", "don't exist" ]
+      }, {
+        "name" : "test07_verifySearchUsern",
+        "uid" : "997a251ee39c359b",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362185805,
+          "stop" : 1631362200397,
+          "duration" : 14592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "bregman", "don't exist" ]
+      } ],
+      "uid" : "fb60a0c3b0e42f98830176b668c5c08c"
+    }, {
+      "name" : "MortgageCalcMob",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "bbbf3c0ca41dfdfc",
+        "parentUid" : "454cce4d2757e9e9e5d9fbb6b82cb6f9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631362163129,
+          "stop" : 1631362163131,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "test01_checkRepayment",
+        "uid" : "76b0be44d29a7a96",
+        "parentUid" : "454cce4d2757e9e9e5d9fbb6b82cb6f9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631362163396,
+          "stop" : 1631362163398,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "454cce4d2757e9e9e5d9fbb6b82cb6f9"
+    }, {
+      "name" : "GrafanaAPI",
+      "children" : [ {
+        "name" : "test01_teamVerification",
+        "uid" : "2c8cf01e37f09d25",
+        "parentUid" : "2cde3ec369bc5469e6492250acd0c829",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362172002,
+          "stop" : 1631362175393,
+          "duration" : 3391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "test02_addTeamAndVerification",
+        "uid" : "5a8b7dc06fb090c1",
+        "parentUid" : "2cde3ec369bc5469e6492250acd0c829",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362175421,
+          "stop" : 1631362175710,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "test03_updateTeamAndVerification",
+        "uid" : "b7c6094b33381dc6",
+        "parentUid" : "2cde3ec369bc5469e6492250acd0c829",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362175734,
+          "stop" : 1631362175929,
+          "duration" : 195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "test04_deleteTeamAndVerification",
+        "uid" : "b1ae5b7c93bc8e90",
+        "parentUid" : "2cde3ec369bc5469e6492250acd0c829",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362175944,
+          "stop" : 1631362176108,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "2cde3ec369bc5469e6492250acd0c829"
+    }, {
+      "name" : "GrafanaWebDB",
+      "children" : [ {
+        "name" : "test01_checkTitle",
+        "uid" : "2c8386296d821d8a",
+        "parentUid" : "0d665d4f398b5780b98c778fdfa51bf3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631362174678,
+          "stop" : 1631362177700,
+          "duration" : 3022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "0d665d4f398b5780b98c778fdfa51bf3"
+    }, {
+      "name" : "ToDoListElectron",
+      "children" : [ {
+        "name" : "test01_addTaskAndCheck",
+        "uid" : "a6c768eb967ef4e2",
+        "parentUid" : "9d2e6ace3b46e13ba5b6907b03164f25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631710284892,
+          "stop" : 1631710285288,
+          "duration" : 396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "test02_addMoreTasksAndCheck",
+        "uid" : "fc5ff02386aacde4",
+        "parentUid" : "9d2e6ace3b46e13ba5b6907b03164f25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631710295441,
+          "stop" : 1631710296009,
+          "duration" : 568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "9d2e6ace3b46e13ba5b6907b03164f25"
+    } ],
+    "uid" : "838c51b44d7d84d32e356b4096eba035"
+  } ]
+}

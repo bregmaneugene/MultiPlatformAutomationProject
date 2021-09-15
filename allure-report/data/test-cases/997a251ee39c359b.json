@@ -1,0 +1,310 @@
+{
+  "uid" : "997a251ee39c359b",
+  "name" : "Test07 - Verify user's pic icon",
+  "fullName" : "sanity.GrafanaWeb.test07_verifySearchUsern",
+  "historyId" : "924c7a0e554a5a35c99a716b5332aa5d",
+  "time" : {
+    "start" : 1631362185805,
+    "stop" : 1631362200397,
+    "duration" : 14592
+  },
+  "description" : "This test verifies user search functionality",
+  "descriptionHtml" : "<p>This test verifies user search functionality</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1631362153276,
+      "stop" : 1631362160393,
+      "duration" : 7117
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1631362185797,
+      "stop" : 1631362185803,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "This test verifies user search functionality",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Mouse Hover Element",
+      "time" : {
+        "start" : 1631362185874,
+        "stop" : 1631362186213,
+        "duration" : 339
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem1",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (82d1ca17fbe836a6f62610ffd4762b4d)] -> xpath: //div[@class='sidemenu-item dropdown'][7]]"
+      }, {
+        "name" : "elem2",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (82d1ca17fbe836a6f62610ffd4762b4d)] -> xpath: //a[@href='/admin/users']]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Work Flow: Search User",
+      "time" : {
+        "start" : 1631362186214,
+        "stop" : 1631362200312,
+        "duration" : 14098
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Text Element as a user",
+        "time" : {
+          "start" : 1631362186245,
+          "stop" : 1631362190182,
+          "duration" : 3937
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (82d1ca17fbe836a6f62610ffd4762b4d)] -> css selector: input[placeholder='Search user by login, email or name']]"
+        }, {
+          "name" : "text",
+          "value" : "bregman"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Verify Element is absent",
+        "time" : {
+          "start" : 1631362195250,
+          "stop" : 1631362200312,
+          "duration" : 5062
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elems",
+          "value" : "[]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "bregman"
+      }, {
+        "name" : "exists",
+        "value" : "don't exist"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1631362200399,
+      "stop" : 1631362200683,
+      "duration" : 284
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeStation",
+    "time" : {
+      "start" : 1631362200685,
+      "stop" : 1631362201339,
+      "duration" : 654
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test07_verifySearchUsern"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-S56D0AUO"
+  }, {
+    "name" : "thread",
+    "value" : "5832@LAPTOP-S56D0AUO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  }, {
+    "name" : "arg0",
+    "value" : "bregman"
+  }, {
+    "name" : "arg1",
+    "value" : "don't exist"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "555d2c85af86462e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631361945199,
+        "stop" : 1631361959766,
+        "duration" : 14567
+      }
+    }, {
+      "uid" : "4e695e19e2c69b93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350339712,
+        "stop" : 1631350354303,
+        "duration" : 14591
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "1cc8915c8aaa844d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/1cc8915c8aaa844d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362185805,
+          "stop" : 1631362200397,
+          "duration" : 14592
+        }
+      }, {
+        "uid" : "b48ccc4a52499acf",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/b48ccc4a52499acf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362185805,
+          "stop" : 1631362200397,
+          "duration" : 14592
+        }
+      }, {
+        "uid" : "2447bdc5e444c334",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/2447bdc5e444c334",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362185805,
+          "stop" : 1631362200397,
+          "duration" : 14592
+        }
+      }, {
+        "uid" : "5c63f56b17a2b6d7",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/5c63f56b17a2b6d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631361945199,
+          "stop" : 1631361959766,
+          "duration" : 14567
+        }
+      }, {
+        "uid" : "7255b89cd95e2a3",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/7255b89cd95e2a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631350339712,
+          "stop" : 1631350354303,
+          "duration" : 14591
+        }
+      }, {
+        "uid" : "7e8c2bbceb1ffca9",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/7e8c2bbceb1ffca9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631350339712,
+          "stop" : 1631350354303,
+          "duration" : 14591
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "997a251ee39c359b.json",
+  "parameterValues" : [ "web", "bregman", "don't exist" ]
+}

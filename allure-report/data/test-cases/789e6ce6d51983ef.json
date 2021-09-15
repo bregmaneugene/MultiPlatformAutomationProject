@@ -1,0 +1,241 @@
+{
+  "uid" : "789e6ce6d51983ef",
+  "name" : "Test05 - Verify the start page's panel elements",
+  "fullName" : "sanity.GrafanaWeb.test05_verifyStartPanelStages",
+  "historyId" : "304328253e7ee9d4e2c085b52c373550",
+  "time" : {
+    "start" : 1631362174169,
+    "stop" : 1631362174692,
+    "duration" : 523
+  },
+  "description" : "This test verifies visibility of the start page's panel elements (via soft assertions of TestNG)",
+  "descriptionHtml" : "<p>This test verifies visibility of the start page's panel elements (via soft assertions of TestNG)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1631362174153,
+      "stop" : 1631362174165,
+      "duration" : 12
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1631362153276,
+      "stop" : 1631362160393,
+      "duration" : 7117
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "This test verifies visibility of the start page's panel elements (via soft assertions of TestNG)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify Visibility of Elements",
+      "time" : {
+        "start" : 1631362174428,
+        "stop" : 1631362174599,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elems",
+        "value" : "[[[ChromeDriver: chrome on WINDOWS (82d1ca17fbe836a6f62610ffd4762b4d)] -> xpath: //div[@class='css-12ve8b']]]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeStation",
+    "time" : {
+      "start" : 1631362200685,
+      "stop" : 1631362201339,
+      "duration" : 654
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1631362174694,
+      "stop" : 1631362175047,
+      "duration" : 353
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test05_verifyStartPanelStages"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-S56D0AUO"
+  }, {
+    "name" : "thread",
+    "value" : "5832@LAPTOP-S56D0AUO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b228cb10797128c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631361934663,
+        "stop" : 1631361934991,
+        "duration" : 328
+      }
+    }, {
+      "uid" : "80ff9f43d74b17b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631350330191,
+        "stop" : 1631350330409,
+        "duration" : 218
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "b4536ce3b4c775ff",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/5/allure/#testresult/b4536ce3b4c775ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362174169,
+          "stop" : 1631362174692,
+          "duration" : 523
+        }
+      }, {
+        "uid" : "76d8053dc26c3a30",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/4/allure/#testresult/76d8053dc26c3a30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362174169,
+          "stop" : 1631362174692,
+          "duration" : 523
+        }
+      }, {
+        "uid" : "5fa0572c6b0f648c",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/3/allure/#testresult/5fa0572c6b0f648c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362174169,
+          "stop" : 1631362174692,
+          "duration" : 523
+        }
+      }, {
+        "uid" : "2ad6aa84fe008355",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/2/allure/#testresult/2ad6aa84fe008355",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631362174169,
+          "stop" : 1631362174692,
+          "duration" : 523
+        }
+      }, {
+        "uid" : "33c80a9292adca32",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron%20Automation/1/allure/#testresult/33c80a9292adca32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631350330191,
+          "stop" : 1631350330409,
+          "duration" : 218
+        }
+      }, {
+        "uid" : "f26767e4e68f213",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Desktop%20Automation/1/allure/#testresult/f26767e4e68f213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631350330191,
+          "stop" : 1631350330409,
+          "duration" : 218
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "789e6ce6d51983ef.json",
+  "parameterValues" : [ "web" ]
+}
