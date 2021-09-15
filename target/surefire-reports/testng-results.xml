@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web Suite" duration-ms="28777" started-at="2021-09-15T15:51:18 IDT" finished-at="2021-09-15T15:51:46 IDT">
+    <groups>
+    </groups>
+    <test name="Web tests" duration-ms="28777" started-at="2021-09-15T15:51:18 IDT" finished-at="2021-09-15T15:51:46 IDT">
+      <class name="sanity.ToDoListElectron">
+        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:sanity.ToDoListElectron@62d0ac62]" name="startSession" is-config="true" duration-ms="6586" started-at="2021-09-15T15:51:18 IDT" finished-at="2021-09-15T15:51:24 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[electron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.ToDoListElectron@62d0ac62]" name="beforeMethod" is-config="true" duration-ms="69" started-at="2021-09-15T15:51:24 IDT" finished-at="2021-09-15T15:51:24 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.ToDoListElectron.test01_addTaskAndCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test01_addTaskAndCheck()[pri:0, instance:sanity.ToDoListElectron@62d0ac62]" name="test01_addTaskAndCheck" duration-ms="367" started-at="2021-09-15T15:51:24 IDT" description="Test 01: Add task and check total number of tasks is changed" finished-at="2021-09-15T15:51:25 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_addTaskAndCheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.ToDoListElectron@62d0ac62]" name="afterMethod" is-config="true" duration-ms="10135" started-at="2021-09-15T15:51:25 IDT" finished-at="2021-09-15T15:51:35 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.ToDoListElectron@62d0ac62]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2021-09-15T15:51:35 IDT" finished-at="2021-09-15T15:51:35 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.ToDoListElectron.test02_addMoreTasksAndCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test02_addMoreTasksAndCheck()[pri:0, instance:sanity.ToDoListElectron@62d0ac62]" name="test02_addMoreTasksAndCheck" duration-ms="488" started-at="2021-09-15T15:51:35 IDT" description="Test 02: Add more tasks and check total number of tasks is changed" finished-at="2021-09-15T15:51:35 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_addMoreTasksAndCheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.ToDoListElectron@62d0ac62]" name="afterMethod" is-config="true" duration-ms="10252" started-at="2021-09-15T15:51:36 IDT" finished-at="2021-09-15T15:51:46 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeStation()[pri:0, instance:sanity.ToDoListElectron@62d0ac62]" name="closeStation" is-config="true" duration-ms="563" started-at="2021-09-15T15:51:46 IDT" finished-at="2021-09-15T15:51:46 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeStation -->
+      </class> <!-- sanity.ToDoListElectron -->
+    </test> <!-- Web tests -->
+  </suite> <!-- Web Suite -->
+</testng-results>
