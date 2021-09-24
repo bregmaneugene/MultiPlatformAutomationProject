@@ -1,4 +1,5 @@
 # MultiPlatformAutomationProject
+[Project Execution via Jenkins - Demo Record](https://drive.google.com/file/d/1TCVnRFDsLhQL6IgA7PMXpwCXJI92CifG/view?usp=sharing)
 ### **_This is a demo QA automation infrastructure project written in JAVA and allowing testing on multiple platforms. The test scenarios in the project are basic ones and were added for demo purposes only and not to provide extensive test coverage of the system under test._**
 ***
 ### _Project Overview_
